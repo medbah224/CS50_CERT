@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Recherche avancée</title>
+        <!-- <style>
+
+            body {
+                font-family: Arial, sans-serif;
+                margin: 40px;
+            }
+            
+            header {
+                display: flex;
+                justify-content: flex-end;
+            }
+            
+            nav a {
+                text-decoration: none;
+                color: #1a0dab;
+            }
+            
+            h1 {
+                color: #d93025;
+                font-size: 22px;
+                margin-bottom: 30px;
+            }
+            
+            .form-group {
+                display: flex;
+                align-items: center;
+                margin-bottom: 15px;
+            }
+            
+            .form-group label {
+                width: 250px;
+                font-size: 14px;
+            }
+            
+            .form-group input[type="text"] {
+                width: 400px;
+                padding: 8px;
+                border: 1px solid #dcdcdc;
+            }
+            
+            .advanced-btn {
+                margin-top: 20px;
+                padding: 10px 18px;
+                background-color: #4285F4;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+            
+            .advanced-btn:hover {
+                background-color: #357ae8;
+            }
+            
+        </style> -->
+    </head>
+    <body>
+
+        <header>
+            <nav>
+                <a href="index.html">Google search</a>
+            </nav>
+            <!-- <h1 index = "logo">Google</h1> -->
+        </header>
+
+        <main>
+            <h1>Recherche avancée</h1>
+            
+            <form action="https://www.google.com/search">
+
+                <div class="form-group">
+                    <label>Tous ces mots :</label>
+                    <input type="text" name="as_q">
+                </div>
+        
+                <div class="form-group">
+                    <label>Cette expression exacte :</label>
+                    <input type="text" name="as_epq">
+                </div>
+        
+                <div class="form-group">
+                    <label>L’un de ces mots :</label>
+                    <input type="text" name="as_oq">
+                </div>
+        
+                <div class="form-group">
+                    <label>Aucun de ces mots :</label>
+                    <input type="text" name="as_eq">
+                </div>
+        
+                <input type="submit" value="Recherche avancée" class="advanced-btn">
+        
+            </form>
+        </main>
+
+    </body>
+</html>
